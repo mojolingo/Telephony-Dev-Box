@@ -6,8 +6,8 @@ run_list "recipe[asterisk]",
   "recipe[asterisk::unimrcp]"
 
 override_attributes asterisk: {
-  version: '12.0.0-beta2',
-  checksum: "dbc1c06ba96127473f96f3af808a60db1654bd06cff907bbb11a09e443b90f4b",
+  version: '12.0.0',
+  checksum: '0efc4507d5384447011fd1148eaaae2d06f70b04c736b4c73fbb9941a9440a2b',
   sip: {
     context: 'adhearsion'
   },
