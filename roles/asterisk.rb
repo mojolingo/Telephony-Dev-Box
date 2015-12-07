@@ -7,8 +7,8 @@ run_list "recipe[asterisk]",
 
 override_attributes asterisk: {
   source: {
-    version: '12.2.0',
-    checksum: '1858abd9be49eabba545fe74d6730d90ac211d2d421be9ab776209f522994263',
+    version: '13.6.0',
+    checksum: '8a01b53c946d092ac561c11b404f68cd328306d0e3b434a7485a11d4b175005a',
   },
   sip: {
     context: 'adhearsion'
